@@ -1,0 +1,357 @@
+        *
+        {
+            margin: 0;
+            padding: 0;
+        }
+        body
+        {
+            background-color: rgb(1, 1, 43);
+            color: white;
+        }
+        nav
+        {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height : 100px;
+            background-color: rgb(16, 16, 71);
+        }
+        nav ul
+        {
+            display: flex;
+            justify-content: center;   
+        }
+        nav ul li
+        {
+            list-style: none;
+            margin: 0 23px;
+        }
+        nav ul li a
+        {
+            padding: 3px;
+            border-radius: 5px;
+            border: 0;
+            background-color: rgb(215, 215, 234);
+            box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+            font-size: 16px;
+            transition: all .25s ease;
+        }
+        li:active
+        {
+            letter-spacing: 3px;
+            background-color: hsl(261deg 80% 48%);
+            color: hsl(0, 0%, 100%);
+            box-shadow: rgb(93 24 220) 0px 0px 0px 0px;
+            transform: translateY(10px);
+            transition: 100ms;    
+        }
+        nav ul li a:hover
+        {
+            letter-spacing: 3px;
+            background-color: hsl(261deg 80% 48%);
+            color: hsl(0, 0%, 100%);
+            box-shadow: rgb(93 24 220) 0px 7px 29px 0px;
+            border-radius: 4px;
+            padding: 5px;
+        }
+        main hr
+        {
+            border: 0;
+            background: #9c97f1;
+            height: 1.2px;
+            margin: 40px 84px;
+        }
+        .left
+        {
+            font-size: x-large;
+        }
+        .firstsection
+        {
+            display: flex;
+            justify-content: space-around;
+            margin:130px 0; 
+            align-items: center;
+        }
+        .firstsection > div
+        {
+            width: 30%; 
+        }
+        .secondsection
+        {
+            display: flex;
+            justify-content: space-around;
+            margin:130px 0; 
+            align-items: center;
+        }
+        .secondsection > div
+        {
+            width: 30%; 
+        }
+        .leftsection
+        {
+            width: 34px;
+            font-size: 2rem;
+            font-family: 'Segoe UI';
+        }
+        .rightsection
+        {
+             width: 80%;
+             margin: 50px 0;
+        }
+        .secleftsection
+        {
+            width: 34px;
+            font-size: 2rem;
+            font-family: 'Segoe UI';
+        }
+        .secrightsection
+        {
+             width: 100%;
+             margin: 50px 0;
+             text-align: center;
+        }
+        .purple
+        {
+            color: rgb(164, 84, 239);
+        }
+        #element
+        {
+            color: rgb(240, 173, 48);
+
+        }
+        .secondsection
+        {
+            max-width: 80vw;
+            margin: auto;
+            height: 80px;
+        }
+    
+        .secondsection h1
+        {
+            font-size: 1.7rem;;
+        }
+        .thirdsection
+        {
+            max-width: 80vw;
+            margin: auto;
+            height: 80px;
+        }
+        .thileftsection
+        {
+            width: 34px;
+            font-size: 2rem;
+            font-family: 'Segoe UI';
+        }
+        .thirightsection
+        {
+            width: 100%;
+            margin: 50px 0;
+            text-align: center;
+        }
+        .thirdsection h1
+        {
+            font-size: 1.7rem;;
+        }
+        .myimage
+        {
+            opacity: 1;
+            display: block;
+            width: 100%;
+            height: 100%;
+            transition: .5s ease;
+            backface-visibility: hidden;
+            transition: transform 0.3s ease-out;
+            border-radius: 30px;
+        }
+        .myimage:hover
+        {
+            transform: scale(1.1);
+        }
+        .text-gray
+        {
+            color: gray;
+        }
+        .box 
+        {
+            border: 3px solid black;
+            background-color:rgb(137, 56, 212);
+            float: right;
+            width: 35%;
+            padding: 50px;
+            margin:30px;
+            transition: .5s ease;
+            backface-visibility: hidden;
+            transition: transform 0.3s ease-out;
+            border-radius: 30px;
+        }
+        .box:hover
+        {
+            background-color: orange;
+            transform: scale(1.1);
+        }
+        #services
+        {
+            max-width: 80vw;
+            margin: auto;
+            height: 80px;
+        }
+        #services > h1
+        {
+            font-family: 'Segoe UI';
+            font-size: 28px;
+            margin: 50px 175px 0 0;
+        }
+        #aboutme > h1
+        {
+            font-family: 'Segoe UI';
+            font-size: 28px;
+            margin: 0 0 0 0;
+        }
+        .box > img
+        {
+            height: 75px;
+            width: 70px;
+            border-radius: 20px;
+        }
+        #services > hr
+        {
+            width: 100%;
+            margin: 30px 0 0 0;
+        }
+        
+        .chatbot
+        {
+            
+            background-color:rgb(137, 56, 212);
+            float: left;
+            width: 35%;
+            padding: 50px;
+            margin:30px;
+            border-radius: 30px;
+            transition: .5s ease;
+            backface-visibility: hidden;
+            transition: transform 0.3s ease-out;
+            font-family: 'Segoe UI';
+            font-size: 20px;
+        }
+        .chatbot:hover
+        {
+            background-color: orange;
+            transform: scale(1.1);
+        }
+        h2 {
+            text-align: center;
+        }
+        .container {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: blueviolet;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 96%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+        textarea {
+            height: 50px;
+        }
+        button[type="submit"] {
+            background-color: rgb(24, 192, 24);
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+        button[type="submit"]:hover {
+            background-color: rgb(37, 101, 37);
+        }         
+        .card {
+            width: fit-content;
+            height: fit-content;
+            background-color: rgb(55, 4, 104);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 25px 25px;
+            gap: 20px;
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.055);
+          }
+          
+          /* for all social containers*/
+          .socialContainer {
+            width: 52px;
+            height: 52px;
+            background-color: rgb(44, 44, 44);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            transition-duration: .3s;
+          }
+          /* instagram*/
+          .containerOne:hover {
+            background-color: #d62976;
+            transition-duration: .3s;
+          }
+          /* twitter*/
+          .containerTwo:hover {
+            background-color: #00acee;
+            transition-duration: .3s;
+          }
+          /* linkdin*/
+          .containerThree:hover {
+            background-color: #0072b1;
+            transition-duration: .3s;
+          }
+          /* Whatsapp*/
+          .containerFour:hover {
+            background-color: #128C7E;
+            transition-duration: .3s;
+          }
+          
+          .socialContainer:active {
+            transform: scale(0.9);
+            transition-duration: .3s;
+          }
+          
+          .socialSvg {
+            width: 17px;
+          }
+          
+          .socialSvg path {
+            fill: rgb(255, 255, 255);
+          }
+          
+          .socialContainer:hover .socialSvg {
+            animation: slide-in-top 0.3s both;
+          }
+          
+          @keyframes slide-in-top {
+            0% {
+              transform: translateY(-50px);
+              opacity: 0;
+            }
+          
+            100% {
+              transform: translateY(0);
+              opacity: 1;
+            }
+          }
+          
+          
+        
